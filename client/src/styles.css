@@ -1,0 +1,26 @@
+@import "tailwindcss";
+*{
+    box-sizing: border-box;
+}
+
+@theme {
+    --color-black-opacity-3: oklch(0 0 0 / 0.3);
+    --color-primary: #0FD0C0;
+    --color-hover:oklch(0.967 0.003 264.542 / 0.3);
+    --color-friend-message: oklch(0.17 0.03 284.1 / 0.52)
+}
+
+body{
+    background-image: url('../public/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+input:focus{
+    outline: none;
+}
+
+button{
+    outline: none;
+}
